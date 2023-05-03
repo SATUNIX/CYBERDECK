@@ -71,7 +71,6 @@ Make sure you don't move the github package or it will no longer work.
 
 Save yourself some money by running my patch above. (Credit to David Bombal - couldn't have done it without you) 
 My Amazon package got stolen so I had to make to with a TPLINK instead of a $106AUD ALFA Card. 
-Whoever stole my package and altered the course of history on this project... I will find you. 
 
 ![image](https://user-images.githubusercontent.com/111553838/235816261-7dbdffaf-4e7a-4004-a24c-8b85e254a1d3.png)
 

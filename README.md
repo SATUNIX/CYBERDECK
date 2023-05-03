@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/111553838/235823036-59a407e6-5495-47c8-a8ce-ac0dcb7bdf75.png)
 
 
-##Tritium Cyber Defence © 2023
+#Tritium Cyber Defence © 2023
 
 This software comes with absolutely no warranty or liability
 # CYBERDECK MK-1.0
@@ -17,24 +17,27 @@ I showed one of my friends after a couple beers and he said it looks like a yugi
 #INSTALLATION
 
 Clone the CYBERDECK repository using the following command:
-
+'''
 git clone https://github.com/SATUNIX/CYBERDECK.git
+'''
 Navigate to the CYBERDECK directory:
+'''
 cd CYBERDECK
-
+'''
 Run the scripts for different steps of the installation:
 (The programs will reboot throughout several times) 
 (They install drivers, edit config files, create oneshot processes etc) 
-
+'''
 sudo ./REQUIREMENTS_PATCH.sh
 reboot
 sudo ./LCD_INSTALLER.sh
 reboot
 sudo ./TPLINK_PATCH.sh
-
+'''
 Once the installation is complete, reboot the system:
+'''
 reboot
-
+'''
 After rebooting, the CYBERDECK tools will be available in the ~/CYBERDECK directory.
 ####Alternatively:
 run the bineriser.sh script to have the python program run as through a shell command no matter where you are in the Linux filesystem. 

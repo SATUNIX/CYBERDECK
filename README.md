@@ -15,16 +15,22 @@ I showed one of my friends after a couple beers and he said it looks like a yugi
 # INSTALLATION
 
 Clone the CYBERDECK repository using the following command:
+
 '''
 git clone https://github.com/SATUNIX/CYBERDECK.git
 '''
+
 Navigate to the CYBERDECK directory:
+
 '''
 cd CYBERDECK
 '''
+
 Run the scripts for different steps of the installation:
+
 (The programs will reboot throughout several times) 
 (They install drivers, edit config files, create oneshot processes etc) 
+
 '''
 sudo ./REQUIREMENTS_PATCH.sh
 reboot
@@ -32,11 +38,15 @@ sudo ./LCD_INSTALLER.sh
 reboot
 sudo ./TPLINK_PATCH.sh
 '''
+
 Once the installation is complete, reboot the system:
+
 '''
 reboot
 '''
+
 After rebooting, the CYBERDECK tools will be available in the ~/CYBERDECK directory.
+
 
 #### Alternatively:
 run the bineriser.sh script to have the python program run as through a shell command no matter where you are in the Linux filesystem. 
@@ -75,7 +85,9 @@ Whoever stole my package and altered the course of history on this project... I 
   
 4. TPLINK_CONFIG: 
   Uses Davids patch and automates his process, Modified and simplified to run specifically on kali linux ARM machines such as what ive got. 
-  
+    
+    
+
 #SOFTWARE (DRIVERS) 
 
 For the TPLINK "TL-WN722N" 

@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/111553838/235823036-59a407e6-5495-47c8-a8ce-ac0dcb7bdf75.png)
 
-
-#Tritium Cyber Defence © 2023
+  
+\#Tritium Cyber Defence © 2023
 
 This software comes with absolutely no warranty or liability
 # CYBERDECK MK-1.0
@@ -13,8 +13,8 @@ I showed one of my friends after a couple beers and he said it looks like a yugi
 
 
 ![image](https://user-images.githubusercontent.com/111553838/235816204-10f7dd93-4c44-4003-a509-ce212c273afb.png)
-
-#INSTALLATION
+  
+\#INSTALLATION
 
 Clone the CYBERDECK repository using the following command:
 '''
@@ -56,8 +56,9 @@ Make sure you dont move the github package or it will no longer work.
 ![image](https://user-images.githubusercontent.com/111553838/235816261-7dbdffaf-4e7a-4004-a24c-8b85e254a1d3.png)
 
 
-# SOFTWARE (HOME GROWN)
+\# SOFTWARE (HOME GROWN)
 F600_AstraAudit.py 
+
   A python tool to provide a one stop shop for CLI ease of use and configurations. 
   Trust me, when your working on a 3.5" screen, you might aswell make a program to automate small tasks. 
   //Never go full skiddy. 
@@ -66,8 +67,10 @@ F600_AstraAudit.py
   (This software comes with absolutely no warranty or liability)
   
 TRITIUM_LAN1 
+
   Something else I started but didnt finish
 LCD CONFIG: 
+
   Installs the drivers, runs a script for the LCD Display, then modifys the /boot/config.txt file to rotate the display and flip the touch input (not that you need to) 
   
 TPLINK_CONFIG: 

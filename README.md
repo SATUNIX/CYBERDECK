@@ -16,26 +16,26 @@ I showed one of my friends after a couple beers and he said it looks like a yugi
 
 Clone the CYBERDECK repository using the following command:
 
-'''
+```
 
 git clone https://github.com/SATUNIX/CYBERDECK.git
 
-'''
+```
 
 Navigate to the CYBERDECK directory:
 
-'''
+```
 
 cd CYBERDECK
 
-'''
+```
 
 Run the scripts for different steps of the installation:
 
 (The programs will reboot throughout several times) 
 (They install drivers, edit config files, create oneshot processes etc) 
 
-'''
+```
 
 sudo ./REQUIREMENTS_PATCH.sh
 reboot
@@ -43,15 +43,15 @@ sudo ./LCD_INSTALLER.sh
 reboot
 sudo ./TPLINK_PATCH.sh
 
-'''
+```
 
 Once the installation is complete, reboot the system:
 
-'''
+```
 
 reboot
 
-'''
+```
 
 After rebooting, the CYBERDECK tools will be available in the ~/CYBERDECK directory.
 

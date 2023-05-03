@@ -1,0 +1,34 @@
+Tonights goal: Network the CYBERDECK MK1.0 / Pi400 with an attatched piratebox RPI0w 
+
+LLM OUTPUT:
+
+PirateBox is an offline file-sharing and communications system built with free software and inexpensive hardware. It allows people to exchange files and communicate without the need for an Internet connection.
+
+To upload files to a PirateBox through a Linux terminal, follow these steps:
+
+Connect to the PirateBox's Wi-Fi network. The SSID is usually something like "PirateBox - Share Freely."
+
+Find the IP address of the PirateBox. It's typically set to 192.168.77.1 by default, but you can check the PirateBox documentation or the network settings on your device to confirm.
+
+Install an FTP client, if you don't have one already. A popular command-line FTP client is "lftp." You can install it on Ubuntu or Debian-based systems with:
+
+sql
+Copy code
+sudo apt update
+sudo apt install lftp
+Launch the FTP client and connect to the PirateBox. Replace "192.168.77.1" with the actual IP address of the PirateBox if it's different:
+arduino
+Copy code
+lftp ftp://192.168.77.1
+Navigate to the "Shared" folder within the PirateBox, where files are usually stored:
+bash
+Copy code
+cd Shared
+To upload a file, use the "put" command followed by the local file path. For example, to upload a file called "example.txt" from your home directory, you would run:
+arduino
+Copy code
+put ~/example.txt
+Once the file transfer is complete, you can exit the FTP client with the "exit" command:
+bash
+Copy code
+exit

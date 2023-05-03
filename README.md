@@ -56,7 +56,7 @@ Whoever stole my package and altered the course of history on this project... I 
 ![image](https://user-images.githubusercontent.com/111553838/235816261-7dbdffaf-4e7a-4004-a24c-8b85e254a1d3.png)
 
 # SOFTWARE (HOME GROWN)
-F600_AstraAudit.py 
+1. F600_AstraAudit.py 
 
   A python tool to provide a one stop shop for CLI ease of use and configurations. 
   Trust me, when your working on a 3.5" screen, you might as well make a program to automate small tasks. 
@@ -65,20 +65,22 @@ F600_AstraAudit.py
   (NO DEBUGGING CURRENTLY) 
   (This software comes with absolutely no warranty or liability)
   
-**TRITIUM_LAN1 
+2. TRITIUM_LAN1 
 
   Something else I started but didnt finish, I kept it in here for someone else to have a look at an improve. 
   
-**LCD CONFIG: 
+3. LCD CONFIG: 
 
   Installs the drivers, runs a script for the LCD Display, then modifys the /boot/config.txt file to rotate the display and flip the touch input (not that you need to) 
   
-**TPLINK_CONFIG: 
+4. TPLINK_CONFIG: 
   Uses Davids patch and automates his process, Modified and simplified to run specifically on kali linux ARM machines such as what ive got. 
   
-#SOFTWARE (PATCHES) 
+#SOFTWARE (DRIVERS) 
+
 For the TPLINK "TL-WN722N" 
 The David Bombal patch: Run the shell script above using the method outlined by David Bombal on his github. My script is just an automation of this method. 
+Uses the aircrack-ng eus driver 
 
 For the 3.5" LCD on ADAFRUIT CYBERDECK 
 Connect to the internet or other WAN and run my patch with sudo privalages, you can check the file to make sure nothing fishy is going on. 
@@ -87,10 +89,16 @@ This is specifically for the 3.5 inch waveshare model you can edit this it will 
 
 
 #SOFTWARE (EXTERNAL)
-python 3.10.0 https://www.python.org/downloads/release/python-3100/ \n
-tshark https://tshark.dev/setup/install/ \n
-hashcat https://hashcat.net/hashcat/ \n
-bettercap https://www.bettercap.org/ \n
-tcpdump https://www.tcpdump.org/ \n 
-systemd networking tools (using ip a, etc) \n  
-Kali Linux ARM 64Bit https://kali.download/arm-images/kali-2023.1/kali-linux-2023.1-raspberry-pi-arm64.img.xz \n
+
+python 3.10.0 https://www.python.org/downloads/release/python-3100/ 
+
+tshark https://tshark.dev/setup/install/ 
+
+hashcat https://hashcat.net/hashcat/ 
+bettercap https://www.bettercap.org/ 
+
+tcpdump https://www.tcpdump.org/ 
+
+systemd networking tools (using ip a, etc) 
+
+Kali Linux ARM 64Bit https://kali.download/arm-images/kali-2023.1/kali-linux-2023.1-raspberry-pi-arm64.img.xz

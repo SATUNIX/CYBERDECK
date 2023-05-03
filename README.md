@@ -1,24 +1,42 @@
-
+![image](https://user-images.githubusercontent.com/111553838/235823036-59a407e6-5495-47c8-a8ce-ac0dcb7bdf75.png)
+##Tritium Cyber Defence © 2023
 
 This software comes with absolutely no warranty or liability
-# CYBERDECK
+# CYBERDECK MK-1.0
 
 Files and programs to build your own cyberdeck, using these scripts for ease of use on my pi400 cyberdeck build. 
 Its about as budget friendly I could get while keeping as much processing power I could squeeze out of a Pi. 
 Utilising Pi's keyboard computer combo and Adafruit / DFrobot screens and drivers, I created this nifty little network auditing and packet sniffing cyberdeck. 
-I showed one of my friends after a couple beers and he said it looks like a yugioh see below: 
+I showed one of my friends after a couple beers and he said it looks like a yugioh card deck, see below: 
+
+
 ![image](https://user-images.githubusercontent.com/111553838/235816204-10f7dd93-4c44-4003-a509-ce212c273afb.png)
 
 #INSTALLATION
 
-clone this repo 
-chmod 755 * 
-plug everything in and hook up everything on the pi (including hdmi display for now)
-run the tplink script 
-run the lcd script
-optional: add a bash script in /bin or /usr/bin which calls this program so you can run it from anywhere in the linux filesystem
+Clone the CYBERDECK repository using the following command:
 
+git clone https://github.com/SATUNIX/CYBERDECK.git
+Navigate to the CYBERDECK directory:
+cd CYBERDECK
 
+Run the scripts for different steps of the installation:
+(The programs will reboot throughout several times) 
+(They install drivers, edit config files, create oneshot processes etc) 
+
+sudo ./REQUIREMENTS_PATCH.sh
+reboot
+sudo ./LCD_INSTALLER.sh
+reboot
+sudo ./TPLINK_PATCH.sh
+
+Once the installation is complete, reboot the system:
+reboot
+
+After rebooting, the CYBERDECK tools will be available in the ~/CYBERDECK directory.
+####Alternatively:
+run the bineriser.sh script to have the python program run as through a shell command no matter where you are in the Linux filesystem. 
+Make sure you dont move the github package or it will no longer work. 
 
 # HARDWARE Used  
 1. Pi400 - RASPBERRY PI 

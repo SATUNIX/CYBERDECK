@@ -17,13 +17,17 @@ I showed one of my friends after a couple beers and he said it looks like a yugi
 Clone the CYBERDECK repository using the following command:
 
 '''
+
 git clone https://github.com/SATUNIX/CYBERDECK.git
+
 '''
 
 Navigate to the CYBERDECK directory:
 
 '''
+
 cd CYBERDECK
+
 '''
 
 Run the scripts for different steps of the installation:
@@ -32,17 +36,21 @@ Run the scripts for different steps of the installation:
 (They install drivers, edit config files, create oneshot processes etc) 
 
 '''
+
 sudo ./REQUIREMENTS_PATCH.sh
 reboot
 sudo ./LCD_INSTALLER.sh
 reboot
 sudo ./TPLINK_PATCH.sh
+
 '''
 
 Once the installation is complete, reboot the system:
 
 '''
+
 reboot
+
 '''
 
 After rebooting, the CYBERDECK tools will be available in the ~/CYBERDECK directory.
@@ -88,7 +96,7 @@ Whoever stole my package and altered the course of history on this project... I 
     
     
 
-#SOFTWARE (DRIVERS) 
+# SOFTWARE (DRIVERS) 
 
 For the TPLINK "TL-WN722N" 
 The David Bombal patch: Run the shell script above using the method outlined by David Bombal on his github. My script is just an automation of this method. 
@@ -100,7 +108,7 @@ This is specifically for the 3.5 inch waveshare model you can edit this it will 
 
 
 
-#SOFTWARE (EXTERNAL)
+# SOFTWARE (EXTERNAL)
 
 python 3.10.0 https://www.python.org/downloads/release/python-3100/ 
 

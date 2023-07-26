@@ -1,4 +1,4 @@
-## Fork incoming ! 
+## Pull request incoming ! 
 
 ### I need to redo the LCD patch process to support the more common DFROBOT displays 
 

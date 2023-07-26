@@ -1,3 +1,16 @@
+## Fork incoming ! 
+
+### I need to redo the LCD patch process to support the more common DFROBOT displays 
+
+### CMD IN,  /BOOT/CONFIG.TXT:
+
+```
+dtoverlay=waveshare35a,rotate=270,invertx=1,swapxy=1
+```
+
+
+---
+
 # Tritium Cyber Defence © 2023
 ![image](https://avatars.githubusercontent.com/u/120298024?v=4)
 
